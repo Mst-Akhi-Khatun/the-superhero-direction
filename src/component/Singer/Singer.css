@@ -1,0 +1,37 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #0b96a8;
+  height: 500px;
+  padding: 10px;
+}
+
+.card-body {
+  height: 100%;
+  width: 100%;
+  background-color: #0b96a8;
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+}
+
+.card-image {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #048b9c;
+  position: relative;
+  top: 70px;
+  border-radius: 50%;
+}
+
+.card-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+/* .btn {
+  background-color: #096691;
+  color: white;
+} */

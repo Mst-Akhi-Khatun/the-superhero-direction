@@ -1,0 +1,9 @@
+/* main header styles */
+.header {
+  background-color: #0b96a8;
+  padding: 10px;
+  color: #fff;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 100px;
+}

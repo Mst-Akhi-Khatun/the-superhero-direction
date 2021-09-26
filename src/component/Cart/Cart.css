@@ -1,0 +1,9 @@
+/* main cart styles */
+.cart {
+  background-color: #0b96a8;
+  height: auto;
+  color: #fff;
+  position: fixed;
+  padding: 20px;
+  border-radius: 10px;
+}
