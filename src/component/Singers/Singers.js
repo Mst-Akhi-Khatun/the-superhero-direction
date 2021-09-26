@@ -25,7 +25,8 @@ const Singers = () => {
                 <div className="col-md-9">
                 <div className="row gy-5">
                     {
-                       singers.map(singer => <Singer 
+                       singers.map(singer => <Singer
+                        key={singer.id} 
                         singer={singer}
                         handleAddToCart={handleAddToCart}
                         ></Singer>) 
